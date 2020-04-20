@@ -1,0 +1,139 @@
+---
+title: Tribute to JavaScript
+description: Tribute to JavaScript / TypeScript / ECMAScript and its ecosystem
+date: 2020-02-02
+slug: coding/tribute-to-javascript
+tags:
+  - coding
+  - javascript
+  - typescript
+---
+
+<div class="center" style="height:300px;">
+<img src="https://lh3.googleusercontent.com/OeOS9-HFzL66HbTOrdNi4HXY6Gt7U-X5araSASL-sesJGMX9THJqL6tgo2njprwX6wgXfe4fHHrMGtCnwwWfao41Er4Sm0e551VSrgTCt-LomPcImcdykDGM8_sFvZr0cevLAth_5P59G3x3z8mTZVmcD9Wocc5doKMxcJU7I_QNbAztmsMoCggRZVUtbyxRL2lqoWNwDPD3EDScyvkV7Jw_gPwsOLpNkGQOnvGLALVUdlyj394-m8dQTihCBBfXSFGN80enAFPyEc1p9GPQpt-hHtpRsQGdOf0NhDrX_KFK7N4zmaQbD-Dkm6LbDzLpMAVYXE14TrTEkpKHah5cTj7a7ymu0tVOdrdRkx0dWNqNpzkNgkjmMhlhNbp1XjDSt5Vj2D-Qy_CBwEEuaIBabCXDbjNDEsPrnZJYYntl2yyz_h0pPPwj3ITxi8RPC7vBHvbHQDxDD9l8o3CoGzr7N1dHD6JrLvzS_2Xf6_5VCWZADqdQTIlXZBjF5mirkIIqVex8bIzQ88_cc5zAu9UxIc8VmnaRwuyfUO0Zlx1pshV5ZOMedowXggIu9V2ZY_KCj52Jnlx-JKwXS2b2x_3aKSJs57FMM-1AdWq6IWa3jc3XinHc6LAYucy3ckWIMYEEWOAp1PPaT45aJlwtYNoXrbe3nSEufbOtmMpZ3m7pw3BPtLiuXGYUzKw3lJoPyMMPCFgTfQl9YmY1Fm5nbbbrEqCDSXj4PYXQtw61TnXWEZyUs2XqGWtNi08=s1052-no" style="width:300px;" />
+</div>
+
+"บรรณาการแด่ JavaScript / TypeScript / ECMAScript"
+
+ในปี 1995 บริษัท Netscape ได้ว่าจ้าง Brendan Eich ให้ออกแบบภาษาสคริปท์สำหรับใช้งานบนเว็บเบราเซอร์ Netscape Navigator คำนิยามของภาษานี้คือ "single-threaded dynamically-typed interpreted language" (แปลเป็นไทยว่า?) โดยเวอร์ชันแรกมีชื่อว่า Mocha ต่อมาเปลี่ยนเป็น LiveScript และ JavaScript ในท้ายที่สุด นั่นคือจุดเริ่มต้นเล็กๆ เมื่อ 25 ปีก่อน ตลอดระยะเวลาการเดินทาง มันถูกปรับปรุงและพัฒนาจนกลายมาเป็นระบบนิเวศที่ยิ่งใหญ่ของวงการพัฒนาซอฟต์แวร์ในปัจจุบัน (JavaScript is everywhere) มีคลื่นหลายลูกที่สร้างความเปลี่ยนแปลงแบบก้าวกระโดดให้กับอาณาจักร JavaScript ขอเลือกตัวอย่างมาเฉพาะเครื่องมือที่ผมใช้งาน
+
+### (My) JavaScript Evolution Timeline
+
+* 1995: JavaScript (former LiveScript, Mocha) was released by Brendan Eich of Netscape.
+* 1996: ECMAScript, the first language specification was released.
+* 2001: JSON (JavaScript Object Notation) was popularized by Douglas Crockford.
+* 2002: JSLint was released by Douglas Crockford.
+* 2005: AJAX (Asynchronous JavaScript + XML) was released by Jesse James Garrett.
+* 2005: Prototype was released by Sam Stephenson.
+* 2006: jQuery was released by John Resig.
+* 2008: Chromium and V8, a JavaScript engine was released by Google, Lars Bak led.
+* 2009: Node.js, a JavaScript runtime (V8-based) was released by Ryan Dahl of Joyent.
+* 2010: npm, a package manager was released.
+* 2010: Express was released by TJ Holowaychuk, StrongLoop and others.
+* 2010: AngularJS was released by Google, Miško Hevery and Adam Abrons led.
+* 2012: webpack, a module bundler was released.
+* 2012: TypeScript was released by Microsoft, Anders Hejlsberg led.
+* 2013: ESLint (JSLint-inspired) was released by Nicholas C. Zakas.
+* 2013: React was released by Facebook, Jordan Walke led.
+* 2013: Electron (Chromium-based) was released by GitHub.
+* 2013: Koa was released by TJ Holowaychuk.
+* 2014: Vue was released by Evan You.
+* 2015: ECMAScript 2015 (ES2015, ES6) was released. Promise was introduced.
+* 2015: Visual Studio Code (Electron-based) was released by Microsoft.
+* 2015: React Native was released by Facebook.
+* 2015: Redux was released by Dan Abramov and Andrew Clark.
+* 2016: Babel, a JavaScript transcompiler was released.
+* 2016: Angular was released by Google.
+* 2016: Svelte was released by Rich Harris.
+* 2017: Prettier was released by Christopher Chedeau of Facebook.
+* 2017: async/await was introduced into ECMAScript.
+* 2017: V8 shipped a brand-new compiler pipeline.
+* 2018: Deno (anagram of Node), an alternative JavaScript runtime was released by Ryan Dahl.
+
+เครื่องมือทุกตัวที่กล่าวมาล้วนมีส่วนสำคัญต่อการเติบโตของ JavaScript ecosystem ทั้งสิ้น แต่ในความเห็นผม ขอยกให้ jQuery, V8, Node.js, ECMAScript 2015 (ES6) คือก้าวกระโดดที่สำคัญ ปัจจุบันเครื่องมือและไลบรารีเหล่านี้ส่วนหนึ่งไปรวมกันอยู่ภายใต้หลังคาบ้านที่มีชื่อว่า [OpenJS Foundation](https://openjsf.org/)
+
+### Beautiful Pain of JavaScript
+
+ผมเริ่มเขียน JavaScript มาตั้งแต่ปี 1998 ทำแอนิเมชันวิบวับวิ่งเล่นใน Netscape Navigator ตามประสาเด็กมัธยม จากนั้นก็ใช้งานผ่านยุคสมัยมาเรื่อยๆ จนถึงปี 2018 นับเป็นเวลา 20 ปีของการเขียนโค้ด JavaScript แบบไร้มาตรฐาน ไม่เป็นไปในทิศทางเดียวกัน (inconsistency) จนกระทั่งได้มาเจอชุดเครื่องมือที่ได้ลองใช้แล้วประทับใจมากๆ เกิดความปลื้มปีติจนกลายเป็นที่มาของโพสต์นี้ แต่กว่าจะมาถึงวันนี้ได้ ต้องผ่านด่าน "ความเจ็บปวดที่งดงาม" ของ JavaScript หลายประการ
+
+#1 : JavaScript เป็นภาษา single-threaded หมายความว่ามันถูกออกแบบมาให้ทำงานกับ CPU เพียงหนึ่งเธรด นั่นคือในขณะหนึ่งๆ จะมีเพียงงานเดียวที่ถูกประมวลผล งานอื่นๆ จะต้องเข้าคิวรอ เราเรียกลักษณะการทำงานแบบนี้ว่า synchronous หรือ blocking paradigm ภาษา JavaScript ทำงานแบบ synchronous เป็นค่าปริยาย (default) แต่ด้วยความที่ JavaScript เป็นภาษาประเภท first-class function ที่สามารถส่งฟังก์ชันไปเป็น parameter ได้ ทำให้เกิดช่องทางพิเศษที่เรียกว่า callback ให้สามารถเขียนโค้ดที่ทำงานแบบ asynchronous หรือ non-blocking paradigm ได้ ซึ่งการเขียนโค้ดแบบนี้จะทำให้เกิดการใช้งาน CPU อย่างมีประสิทธิภาพมากกว่า เนื่องจากขณะ active task อยู่ในสถานะรอผลลัพธ์ (waiting state) task ในลำดับถัดไปจะถูกเรียกให้ทำงานทันที ในขณะที่ synchronous จะต้องรอจนกว่าจะได้ผลลัพธ์กลับมา แม้จะมีข้อดี แต่ callback ก็มีข้อเสียที่รู้จักกันในชื่อ callback hell จึงได้มีการออกแบบ Promise ขึ้นมาเพื่อปัญหานี้โดยเฉพาะ ก่อนจะพัฒนามาเป็น async/await ที่นิยมในปัจจุบัน
+
+นักพัฒนาที่มีพื้นฐานมาจากภาษาอื่นที่มีการทำงานแบบ synchronous เป็นหลัก เช่น Ruby, Python, PHP พอมาเจอกระบวนท่า callback มักจะรู้สึกว่าเป็นเรื่องยาก ไม่เข้าใจว่าทำไปเพื่ออะไร ผมเองก็เป็นหนึ่งในนั้น กว่าจะเข้าใจและเขียนโค้ด asynchronous ได้อย่างเป็นธรรมชาติต้องใช้เวลานานนับปี ปัจจุบัน async/await ได้รับความนิยมแพร่หลาย ทำให้การเขียนและอ่านโค้ด asynchronous ทำได้ง่ายในระดับเดียวกับ synchronous อยากแนะนำให้ลองตามไปศึกษาจากลิงก์นี้ต่อ
+
+* บทความน่าอ่าน [Is JavaScript Synchronous or Asynchronous? What the Hell is a Promise?](https://medium.com/better-programming/is-javascript-synchronous-or-asynchronous-what-the-hell-is-a-promise-7aa9dd8f3bfb)
+* คลิปน่าดู [What the heck is the event loop anyway? | Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+#2 : JavaScript เป็นภาษา dynamically-typed หมายความว่าเราสามารถประกาศและใช้งานตัวแปร (variable) ได้อย่างอิสระ ไม่ต้องสนใจ type ปล่อยให้เป็นหน้าที่ของ interpreter จัดการเอง ข้อดีคือเขียนง่าย สามารถพลิกแพลงได้หลากหลายอย่างอิสระ จากจุดเด่นนี้เอง ทำให้มันได้รับความนิยมอย่างสูง (ดูจากจำนวนโปรเจ็คใน GitHub และ npm) แต่การไม่มี coding standard ที่ชัดเจน ทำให้เกิดวิธีการเขียนโค้ดแบบแนวทางใครแนวทางมัน ข้อเสียของภาษา dynamic สำหรับผมคือ debug ยาก เพราะคาดเดา input/output ได้ยาก พอมารวมกับความไม่เป็นเอกภาพทางไวยากรณ์ภาษาของ JavaScript ยิ่งทำให้รู้สึกเกลียดมันยิ่งขึ้นไปอีก จนได้มาพบกับ ESLint, Standard JS, Prettier ปัญหาเรื่อง coding standard จึงได้ถูกกำจัดไป เหลือไว้เพียงปัญหาความพริ้วตามธรรมชาติของภาษา dynamically-typed
+
+มีนักพัฒนาจำนวนหนึ่งเห็นตรงกันว่านี่คือปัญหา ทีมนักพัฒนาจาก Facebook ได้สร้างเครื่องมือที่เรียกว่า Flow (a static type checker for JavaScript) และทีมนักพัฒนาจาก Microsoft ได้สร้างเครื่องมือที่เรียกว่า TypeScript เพื่อมาแก้ปัญหานี้ ทั้ง Flow และ TypeScript ได้เพิ่มความยุ่งยากเข้าไปในขั้นตอนการเขียนโค้ด แต่ก็ได้สร้างสมดุลโดยการลดความยุ่งยากในขั้นตอนการอ่านโค้ด ช่วยให้นักพัฒนาสามารถคาดเดา input/output ของโปรแกรมได้ง่ายขึ้น อีกทั้ง TypeScript Compiler (tsc) ยังสามารถช่วยตรวจจับความผิดพลาดง่ายๆ ได้ตั้งแต่ขั้นตอนการพัฒนา
+
+ต่อมา Microsoft ได้สร้าง editor ชื่อ Visual Studio Code ด้วยภาษา TypeScript มันถูกออกแบบมาให้สามารถทำงานร่วมกับภาษาโปรแกรมได้หลากหลาย มีจุดเด่นในเรื่องของระบบ extensions จึงเป็นที่มาของ 3 ประสาน VSCode + TypeScript ESLint + Prettier ที่ทำให้การเขียนโค้ด TypeScript เป็นไปด้วยความสนุกสนานเพลิดเพลิน รู้สึกอุ่นใจเพราะมันสามารถตรวจจับ bug ง่ายๆ ได้อย่างรวดเร็ว เหลือไว้เพียง bug ที่ซับซ้อน ที่ต้องใช้เครื่องมืออย่างการเขียนเทส (testing) เข้ามาช่วยกรอง
+
+#3 : JavaScript เป็นภาษา interpreted หมายความว่ากระบวนการแปลง source code ไปเป็น machine code ถูกตัดทอนให้สั้นลง ช่วยเพิ่มความสะดวกให้นักพัฒนา แต่ในขณะเดียวกันก็ต้องแลกกับประสิทธิภาพที่ลดลง ผลคือทำงานช้า เมื่อเทียบกับภาษา compiled ที่มีกระบวนการ optimization ที่ซับซ้อนและใช้เวลานานกว่า
+
+Google เป็นบริษัทที่มีการใช้งาน JavaScript อย่างหนัก ผ่านบริการต่างๆ ที่เป็นเว็บแอพพลิเคชัน ได้ลงทุนพัฒนา JavaScript Engine ที่มีชื่อว่า V8 เพื่อนำมาใช้กับเว็บเบราเซอร์ Google Chrome โครงการนี้ได้สร้างเครื่องมือที่มาช่วยปรับปรุงกระบวนการแปลง JavaScript source code ไปเป็น machine code ได้อย่างมีประสิทธิภาพ มีการเพิ่ม JIT (Just-in-Time) Compiler ที่ช่วยคอมไพล์โค้ดส่วนที่มีการใช้งานบ่อยๆ ให้เป็น machine code เพื่อให้ระบบโดยรวมทำงานเร็วขึ้น ต่อมามีการนำ V8 ไปพัฒนาเป็น runtime สำหรับประมวลผลภาษา JavaScript นอกเว็บเบราเซอร์ ที่ต่อมากลายเป็นคลื่นลูกสำคัญของวงการ นั่นคือ Node.js
+
+### Functional TypeScript
+
+ทำไมถึงเลือก functional flavor?
+
+คงเป็นเรื่องรสนิยมของคนที่ชอบความงามแบบ minimalist จากคนที่เขียน OOP แบบ mutable + imperative มาทั้งชีวิต พอได้มาลอง FP ในร่าง JavaScript แล้วรู้สึกว่ามันถูกจริตเอามากๆ คงเพราะแนวคิด pure function, immutable variable, declarative paradigm เป็นความงามที่เรียบง่าย "Less is More" มันทำให้เราเห็นภาพว่าแอพพลิเคชันก้อนใหญ่ๆ นั้น แท้จริงแล้วเป็นเพียงสายโซ่ที่เกิดจากการร้อยเรียงฟังก์ชันจำนวนมากเข้าด้วยกันเท่านั้นเอง ซึ่ง Koa.js เป็นตัวอย่างที่ดีในการแสดงให้เห็นภาพความงดงามแบบ minimalist
+
+ทีมพัฒนา React เองก็สนับสนุนแนวทาง functional component ด้วยการสร้างเครื่องมือที่เรียกว่า [Hooks](https://reactjs.org/docs/hooks-intro.html) ออกมาให้ใช้งาน แนะนำให้ลองอ่าน หัวข้อ Motivation เพื่อจะได้ทราบแรงจูงใจการในการสร้าง Hooks ของทีมงาน
+
+* บทความน่าอ่าน [Functional Programming Principles in Javascript](
+  https://www.freecodecamp.org/news/functional-programming-principles-in-javascript-1b8fc6c3563f/)
+
+ทำไมถึงเลือก TypeScript?
+
+เป็นเรื่องรสนิยมอีกเช่นกัน ใช้ TypeScript แล้วรู้สึกอุ่นใจ มี TypeScript Compiler ช่วยตรวจจับ bug เบื้องต้น ทำให้การเขียนหรือแก้ไขโค้ดเป็นไปด้วยความมั่นใจ อ่านโค้ดง่าย debug ง่าย คาดเดา input/output ง่าย มี ESLint ช่วยแนะนำสิ่งที่ควรและไม่ควรทำ มี Prettier ช่วยจัด format โค้ดให้ทุกครั้งที่กดบันทึก
+
+หลังจากผ่านช่วงเวลายากลำบากในการสร้างความคุ้นเคยกับ functional TypeScript แล้ว ก็ได้เวลาขึ้นรับรางวัล นั่นคือชุดเครื่องมือที่ใช้แล้วรู้สึกว่าถูกจริตและเหมาะมือที่สุด ใช้แล้วเพลิดเพลิน มีความสุข ผลผลิตมาเต็ม ตอบโจทย์สำหรับงานส่วนใหญ่ของตัวเอง ที่เป็นพวกเว็บแอพพลิเคชันและโมบายแอพพลิเคชัน
+
+### My 2020​++ Toolbox
+
+Programming Language: [TypeScript](https://www.typescriptlang.org/) (FP flavor: pure, immutable, declarative)
+
+Editor: [Visual Studio Code](https://code.visualstudio.com/) + [Prettier](https://prettier.io/) { "semi": false, "singleQuote": true } + [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint)
+
+Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+Front-End:
+
+- Framework: [React](https://reactjs.org/) ([Hooks](https://reactjs.org/docs/hooks-intro.html))
+- Router: [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
+- State Management: [Easy-Peasy](https://github.com/ctrlplusb/easy-peasy) (Redux-based)
+- UI Library: [Ant Design](https://ant.design/)
+- Unique ID: [Nano ID](https://github.com/ai/nanoid) ([Collision Calculator](https://zelark.github.io/nano-id-cc/))
+- HTTP Client: [axios](https://github.com/axios/axios)
+- Date/Time Library: [date-fns](https://date-fns.org/)
+
+Back-End:
+
+- Runtime: [Node.js](https://nodejs.org/en/) (LTS)
+- Framework: [Koa](https://github.com/koajs/koa)
+- Cloud NoSQL: [Firestore](https://cloud.google.com/firestore/)
+- Self-hosted SQL: [PostgreSQL](https://www.postgresql.org/docs/current/index.html) + [GraphQL](https://graphql.org/) / [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
+- Self-hosted NoSQL: [MongoDB](https://docs.mongodb.com/manual/introduction/), [Redis](https://redis.io/)
+- User Identity: [Firebase Authentication](https://firebase.google.com/docs/auth)
+- Testing Framework: [Jest](https://jestjs.io/)
+
+Mobile Cross-Platform:
+
+- Framework: [React Native](https://facebook.github.io/react-native/)
+- Router: [Wix React Native Navigation](https://github.com/wix/react-native-navigation)
+
+Deployment:
+
+- Front-end: [Firebase Hosting](https://firebase.google.com/docs/hosting)
+- Back-end: [Cloud Run](https://cloud.google.com/run), [Docker](https://docs.docker.com/engine/docker-overview/)
+- VPS: [DigitalOcean](https://www.digitalocean.com/), [Vultr](https://www.vultr.com/)
+- Domain Name: [Cloudflare](https://www.cloudflare.com/), [Porkbun](https://porkbun.com/)
+
+Watch List:
+
+- [Svelte](https://svelte.dev/)
+- [Deno](https://github.com/denoland/deno)
+- [V](https://github.com/vlang/v)
+- [Flutter](https://flutter.dev/)
+
