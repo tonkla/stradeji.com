@@ -46,16 +46,17 @@ export default {
     primary: tailwind.colors.purple[7],
     secondary: `#5f6c80`,
     toggleIcon: tailwind.colors.gray[8],
-    heading: tailwind.colors.black,
+    heading: tailwind.colors.gray[8],
+    text: tailwind.colors.gray[9],
     divide: tailwind.colors.gray[4],
     modes: {
       dark: {
-        text: tailwind.colors.gray[3],
         primary: tailwind.colors.purple[5],
         secondary: `#7f8ea3`,
         toggleIcon: tailwind.colors.gray[4],
         background: `#1A202C`,
-        heading: tailwind.colors.white,
+        heading: tailwind.colors.gray[2],
+        text: tailwind.colors.gray[2],
         divide: tailwind.colors.gray[8],
         muted: tailwind.colors.gray[8],
       },
@@ -102,7 +103,6 @@ export default {
     ...headingStyles,
     Container: {
       padding: [3, 4],
-      width: 960,
     },
     blockquote: {
       borderLeftColor: `primary`,

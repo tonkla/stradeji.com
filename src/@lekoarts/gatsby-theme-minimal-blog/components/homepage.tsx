@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { jsx, Styled } from 'theme-ui'
 import { Link } from 'gatsby'
 import Layout from './layout'
 import Listing from './listing'
@@ -28,7 +28,13 @@ const Homepage = ({ posts }: PostsProps) => {
     <Layout>
       <Listing posts={posts} showTags={false} />
       <div css={{ fontSize: '1.2rem', textAlign: 'right' }}>
-        <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
+        <Styled.a
+          as={Link}
+          to={replaceSlashes(`/${basePath}/${blogPath}`)}
+          sx={{ fontSize: [1, 2, 3], color: `text` }}
+        >
+          Read all posts
+        </Styled.a>
       </div>
     </Layout>
   )
