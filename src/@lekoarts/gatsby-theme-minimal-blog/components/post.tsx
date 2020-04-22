@@ -2,6 +2,7 @@
 import { jsx, Styled } from 'theme-ui'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import React from 'react'
+import AdSense from 'react-adsense'
 import Layout from './layout'
 import ItemTags from './item-tags'
 import SEO from './seo'
@@ -61,6 +62,15 @@ const Post = ({ data: { post } }: PostProps) => (
         '.gatsby-resp-image-wrapper': { my: [4, 4, 5], boxShadow: shadow.join(`, `) },
       }}
     >
+      {window.location.hostname !== 'localhost' && (
+        <AdSense.Google
+          client="ca-pub-8056728269548028"
+          slot="2373901589"
+          style={{ display: 'block' }}
+          format="auto"
+          responsive="true"
+        />
+      )}
       <MDXRenderer>{post.body}</MDXRenderer>
     </section>
   </Layout>
