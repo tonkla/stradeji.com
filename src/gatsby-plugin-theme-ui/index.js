@@ -11,13 +11,15 @@ const headingStyles = {
     ...tailwind.styles.h2,
     color: `heading`,
     fontSize: [4, 5, 6],
-    mt: 2,
+    mt: 3,
+    mb: 3,
   },
   h3: {
     ...tailwind.styles.h3,
     color: `heading`,
     fontSize: [3, 4, 5],
     mt: 3,
+    mb: 2,
   },
   h4: {
     ...tailwind.styles.h4,
