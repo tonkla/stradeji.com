@@ -62,18 +62,13 @@ const Post = ({ data: { post } }: PostProps) => (
         '.gatsby-resp-image-wrapper': { my: [4, 4, 5], boxShadow: shadow.join(`, `) },
       }}
     >
-      {window.location.hostname !== 'localhost' && (
-        <>
-          <span />
-          <AdSense.Google
-            client="ca-pub-8056728269548028"
-            slot="2373901589"
-            style={{ display: 'block' }}
-            format="auto"
-            responsive="true"
-          />
-        </>
-      )}
+      <AdSense.Google
+        client="ca-pub-8056728269548028"
+        slot="2373901589"
+        style={{ display: 'block' }}
+        format="auto"
+        responsive="true"
+      />
       <MDXRenderer>{post.body}</MDXRenderer>
     </section>
   </Layout>
