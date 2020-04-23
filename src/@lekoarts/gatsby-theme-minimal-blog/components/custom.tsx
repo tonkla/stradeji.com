@@ -22,6 +22,7 @@ const Custom = () => {
       />
       <style type="text/css">{`
 .center { display: flex; align-items: center; justify-content: center; }
+@media (max-width: 480px) { .center img { width: 100%; } }
 `}</style>
     </Helmet>
   )
