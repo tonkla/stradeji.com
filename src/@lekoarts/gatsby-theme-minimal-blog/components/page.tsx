@@ -19,7 +19,7 @@ const Page = ({ data: { page } }: PageProps) => (
   <Layout>
     <SEO title={page.title} description={page.excerpt} />
     <Styled.h1>{page.title}</Styled.h1>
-    <section sx={{ my: 5 }}>
+    <section sx={{ mt: 4, mb: 5 }}>
       <MDXRenderer>{page.body}</MDXRenderer>
     </section>
   </Layout>
