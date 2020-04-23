@@ -63,13 +63,16 @@ const Post = ({ data: { post } }: PostProps) => (
       }}
     >
       {window.location.hostname !== 'localhost' && (
-        <AdSense.Google
-          client="ca-pub-8056728269548028"
-          slot="2373901589"
-          style={{ display: 'block' }}
-          format="auto"
-          responsive="true"
-        />
+        <>
+          <span />
+          <AdSense.Google
+            client="ca-pub-8056728269548028"
+            slot="2373901589"
+            style={{ display: 'block' }}
+            format="auto"
+            responsive="true"
+          />
+        </>
       )}
       <MDXRenderer>{post.body}</MDXRenderer>
     </section>
