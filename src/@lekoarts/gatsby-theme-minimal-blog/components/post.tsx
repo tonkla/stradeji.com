@@ -58,7 +58,8 @@ const Post = ({ data: { post } }: PostProps) => (
     <section
       sx={{
         fontWeight: 300,
-        my: 5,
+        mt: 4,
+        mb: 5,
         '.gatsby-resp-image-wrapper': { my: [4, 4, 5], boxShadow: shadow.join(`, `) },
       }}
     >
@@ -69,6 +70,13 @@ const Post = ({ data: { post } }: PostProps) => (
         format="auto"
         responsive="true"
       />
+      <div
+        sx={{
+          mb: 4,
+          borderBottom: '1px solid #2d3748',
+          height: '1px',
+        }}
+      ></div>
       <MDXRenderer>{post.body}</MDXRenderer>
     </section>
   </Layout>
