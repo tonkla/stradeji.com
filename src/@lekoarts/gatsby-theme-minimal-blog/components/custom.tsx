@@ -1,19 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 
 const Custom = () => {
-  // Note: Helmet doesn't support 'data-ad-client' attribute
-  useEffect(() => {
-    if (window.location.hostname !== 'localhost') {
-      const script = document.createElement('script')
-      script.type = 'text/javascript'
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-      script.async = true
-      script['data-ad-client'] = 'ca-pub-8056728269548028'
-      document.getElementsByTagName('head')[0].appendChild(script)
-    }
-  }, [])
-
   return (
     <Helmet>
       <link
